@@ -2,7 +2,7 @@ $packageName = 'jmeter'
 
 try {
   # Remove custom shim
-  rm $env:ChocolateyInstall\$env:chocolatey_bin_root\jmeter.bat
+  rm $env:ChocolateyInstall\bin\jmeter.bat
   Write-ChocolateySuccess $packageName
 
 } catch {
