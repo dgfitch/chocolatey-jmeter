@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<!-- Do not remove this test for UTF-8: if Ω doesn't appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
@@ -13,9 +13,9 @@
     <projectUrl>http://jmeter.apache.org/</projectUrl>
     <tags>jmeter java admin web load test</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
+    <licenseUrl>http://www.apache.org/licenses/</licenseUrl> <!-- Yes, this is the license URL linked to on JMeter's page -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/jmeter.png</iconUrl>-->
+    <iconUrl>http://cdn.rawgit.com/dgfitch/chocolatey-jmeter/master/icons/jmeter.png</iconUrl>
     <dependencies>
       <dependency id="javaruntime" />
     </dependencies>
