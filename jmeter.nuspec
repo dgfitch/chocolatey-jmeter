@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>jmeter</id>
     <title>Apache JMeter</title>
-    <version>2.13</version>
+    <version>2.13.0.1</version>
     <authors>Apache Software Foundation</authors>
     <owners>Dan Fitch</owners>
     <summary>The Apache JMeter™ desktop application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.</summary>
