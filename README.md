@@ -1,7 +1,9 @@
 # JMeter Chocolatey package
 
-Just what it sounds like. For JMeter 2.12. Only adds JMeter itself to the path 
+Just what it sounds like. For JMeter 2.13. Only adds JMeter itself to the path 
 as a batch file... somewhat clumsy, but a start.
+
+Thanks to @micking for the fix so an extra cmd.exe doesn't start.
 
 
 ## JMeter releases
